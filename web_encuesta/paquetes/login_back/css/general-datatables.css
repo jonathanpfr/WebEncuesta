@@ -1,0 +1,123 @@
+#myTable_length label{
+	font-weight: 300;
+}
+
+#myTable_filter label{
+	font-weight: 300;
+}
+
+#myTable_wrapper .row{
+	margin-bottom:20px;
+}
+
+#myTable_wrapper{
+    margin-bottom:30px;
+}
+
+#myTable_info{
+    float:left;
+} 
+
+
+#myTable_filter{
+	float:right;
+}
+
+#myTable_length{
+    float:left;
+}
+
+#myTable_paginate{
+	float:right;
+    margin-top:10px;
+}
+
+.table{
+	margin-bottom: 0;
+}
+
+#ToolTables_myTable_0{
+    float:right;
+}
+
+/*.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}*/
+
+.pagination{
+	margin:0px;
+}
+
+label{
+	color:#616161 !important;
+}
+
+td.details-control {
+    background: url('../img/pencil.png') no-repeat center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+td.details-control2 {
+    background: url('modelo/img/pencil.png') no-repeat center center;
+    background-size: 40px 60px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+td.details-delete {
+    background: url('../img/delete.png') no-repeat center center;
+    background-size:15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+td.details-user-profile{
+    background: url('../img/user-profile.png') no-repeat center center;
+    background-size:20px;
+    background-repeat: no-repeat;
+    cursor: pointer; 
+}
+td.details-register {
+    background: url('../img/register-icon.png') no-repeat center center;
+    background-size:15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+td.details-reporte {
+    background: url('../img/impre.png') no-repeat center center;
+    background-size:30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+td.details-open {
+    background: url('../img/abrir-icon.png') no-repeat center center;
+    background-size:15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+td.details-contacto{/*AGREGADO*/
+    background: url('../img/contact.png') no-repeat center center;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+tr.shown td.details-open {
+    background: url('../img/cerrar-icon.png') no-repeat center center;
+    background-size:15px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 690px){
+    .DTTT_container{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+}

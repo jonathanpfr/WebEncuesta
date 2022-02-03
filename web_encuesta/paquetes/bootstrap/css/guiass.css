@@ -1,0 +1,33 @@
+
+#panel{
+	border:2px solid #f0ad4e ;
+}
+
+.panel > .cabecera {
+		background-color: #f0ad4e;
+}
+
+
+.modal-content .modal-body form .has-orange .form-control {
+
+	border-color: orange;
+	 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.modal-content .modal-body form .has-orange .form-control:focus {
+
+	border-color: orange;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 6px orange;
+
+}
+
+.row{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.divider{
+	background: orange;
+	width: 100%;
+	height: 2px;
+}

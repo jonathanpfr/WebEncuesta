@@ -1,0 +1,69 @@
+#mensaje
+{
+    font-size: 15px;
+    color:red;
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid red;
+    font-family: monospace;
+    background-color: white;
+}
+
+.logo{
+    background-color: white;
+    border-color: white;
+    /*border-radius: 25px;*/
+    padding: 2px;
+    font-size: 50px;
+    color: white;
+    width:380px;
+    height:50px;
+}
+html{
+    height: 100%;
+    color: white;
+}
+
+body{
+    /*background-image:url(../imagenes/fondo_historias.jpeg) ;*/
+    background-image:url(../../imagenes/fondo_login.jpg) ;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    margin:0px;
+
+
+}
+.ala {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.ala .valign {
+    display: block;
+}
+.background-form{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 25px 20px 30px 20px;
+    border-radius: 20px;
+}
+
+/* label focus color */
+.input-field input:focus + label{
+    color: yellow !important;
+    .material-icons{color:blue}
+}
+/* label underline focus color */
+.row .input-field input:focus {
+    border-bottom: 1px solid yellow !important;
+    box-shadow: 0 1px 0 0 yellow !important
+
+}

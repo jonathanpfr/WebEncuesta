@@ -1,0 +1,41 @@
+.centrar{
+    text-align: center;
+}
+.manito{
+    cursor: pointer;
+}
+
+.cabecera_tabla thead tr th{
+    color:white; 
+    text-align: center;
+    border-radius: 0px;
+}
+.cen{
+    text-align: center;
+}
+table{
+    zoom: 90%;
+}
+html{
+    zoom: 90%;
+}
+
+.mover{
+    animation: llanta1 .7s infinite linear;
+    -moz-animation: llanta1 .7s infinite linear;
+    -webkit-animation: llanta1 .7s infinite linear;
+}
+@-webkit-keyframes llanta1 {  /* Safari and Chrome */
+    from { -webkit-transform: rotate(0deg) }
+    to   { -webkit-transform: rotate(360deg) }
+}
+@-moz-keyframes llanta1 {  /* Firefox */
+    from { -moz-transform: rotate(0deg) }
+    to   { -moz-transform: rotate(360deg) }
+}
+@keyframes llanta1 { /*  sintaxis original  */
+    from { transform: rotate(0deg) }
+    to   { transform: rotate(360deg) }
+}
+
+

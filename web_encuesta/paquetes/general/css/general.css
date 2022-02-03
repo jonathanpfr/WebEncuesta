@@ -1,0 +1,105 @@
+.imagen_formulario_reporte{
+    width: 100px !important;
+    height: 200px !important;
+}
+.imagen_formulario{
+    width: 100px !important;
+    height: 50px !important;
+}
+.fecha{
+    z-index: 1100 !important;
+}
+
+.modal_largo{
+    width: 99%;
+}
+.red{
+    background-color: #d9534f !important;
+}
+.red_letra{
+    color: #d9534f !important;
+}
+.titulo_panel_red{
+     color: #d9534f;
+     font-family: "Arial Black";
+}
+.icono_panel{
+    zoom: 300%;
+}
+.borde_panel{
+    border: 5px #31708f solid;
+}
+.panel .panel-body{
+    overflow-x: auto !important;    
+}
+.contenedor{
+    margin: 2%;
+}
+.cabecera_tabla{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.cabecera_modal{
+    color: #31708f;
+    background-color: #d9edf7;
+    font-family: inherit;
+    /*                color: #d9edf7;
+                    background-color: #007bff;
+                    border-color: #007bff;*/
+}
+.modal-header {
+    min-height: 16.43px;
+    padding: 5px;
+    border-bottom: 1px solid silver;
+}
+.imagen_modal{
+    width: 100px !important;
+    height: 100px !important;
+}
+.quitar_imagen_modal{
+    color:red;
+    cursor: pointer;
+}
+.btn_carga_registrar{
+    color: #31708f !important;
+}
+.label_modal{
+    color: #31708f;
+}
+.titulo_panel{
+    font-family: "Arial Black";
+}
+
+.table-bordered>thead>tr>th {
+    border-bottom-width: 0px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #31708f;
+    cursor: default;
+    background-color: #bce8f1;
+    border-color: #bce8f1;
+}
+body{
+    font-family: inherit;
+    /*                font-family: "Homer Simpson", cursive;*/
+}
+.manito{
+    cursor: pointer;
+}
+
+legend.group-border {
+    width: inherit;
+    /* Or auto */
+    padding: 0 10px;
+    /* To give a bit of padding on the left and right */
+    border-bottom: none;
+}
+fieldset.group-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
